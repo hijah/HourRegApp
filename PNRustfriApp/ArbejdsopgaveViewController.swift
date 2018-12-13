@@ -36,6 +36,7 @@ class ArbejdsopgaveViewController: UIViewController {
     
     @IBAction func sendarbejdsopgave(_ sender: Any) {
         
+        
         let url = "http://hoursregisteringrestservice.azurewebsites.net/Service1.svc/addDay"
         let parameters: Parameters = ["WorkHour": arbejdstimer.text!,
                                       "DriveHour": køretimer.text!,

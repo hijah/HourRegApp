@@ -28,7 +28,7 @@ class LoginViewController: UIViewController {
             Auth.auth().signIn(withEmail: email, password: password) { (user , error) in
                 if user != nil {
                     print ("Succes")
-                    self.performSegue(withIdentifier: "nyarbejdsopgave", sender: self)
+                    self.performSegue(withIdentifier: "nyarbejdsopgaveskifter", sender: self)
                 }
                 if error != nil {
                     print ("ups")
