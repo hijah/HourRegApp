@@ -32,10 +32,14 @@ class ArbejdsopgaveViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    
+    }
+    @IBAction func AdminButton(_ sender: Any) {
     }
     
     @IBAction func sendarbejdsopgave(_ sender: Any) {
         
+       
         
         let url = "http://hoursregisteringrestservice.azurewebsites.net/Service1.svc/addDay"
         let parameters: Parameters = ["WorkHour": arbejdstimer.text!,
@@ -46,6 +50,7 @@ class ArbejdsopgaveViewController: UIViewController {
                                       "PlaceId": sted.text!,
                                       "TimeOff": afspadsering.text!,
                                       "FritValgsKonto": fritvalgskonto.text!,
+                                      
                                       "Date": "/Date(1542326400000+0000)/",
                                       "UserId": "1"]
     

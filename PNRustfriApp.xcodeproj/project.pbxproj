@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		60CEDB119BE5DC6406D3B7FB /* Pods_PNRustfriApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC021F9DDF7B9090DF4AD567 /* Pods_PNRustfriApp.framework */; };
 		97B518F144D27C6E6796FEF9 /* Pods_PNRustfriAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FA262517FDD22F66031DE8 /* Pods_PNRustfriAppUITests.framework */; };
+		A72011BC21CAAF1D00AA87C4 /* AdminCreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72011BB21CAAF1D00AA87C4 /* AdminCreateUserViewController.swift */; };
 		A7902C0D21C162A6005D2657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7902C0C21C162A6005D2657 /* AppDelegate.swift */; };
 		A7902C1221C162A6005D2657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7902C1021C162A6005D2657 /* Main.storyboard */; };
 		A7902C1421C162AB005D2657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7902C1321C162AB005D2657 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		500BC300E9C76321D25CF45E /* Pods-PNRustfriApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PNRustfriApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PNRustfriApp/Pods-PNRustfriApp.release.xcconfig"; sourceTree = "<group>"; };
 		76FA262517FDD22F66031DE8 /* Pods_PNRustfriAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PNRustfriAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE02A3BCC8DDD1B2E54E4FD /* Pods-PNRustfriAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PNRustfriAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PNRustfriAppTests/Pods-PNRustfriAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A72011BB21CAAF1D00AA87C4 /* AdminCreateUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminCreateUserViewController.swift; sourceTree = "<group>"; };
 		A7902C0921C162A6005D2657 /* PNRustfriApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PNRustfriApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7902C0C21C162A6005D2657 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7902C1121C162A6005D2657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				A7902C1821C162AB005D2657 /* Info.plist */,
 				A7902C4021C1748A005D2657 /* LoginViewController.swift */,
 				A7902C4221C17711005D2657 /* ArbejdsopgaveViewController.swift */,
+				A72011BB21CAAF1D00AA87C4 /* AdminCreateUserViewController.swift */,
 			);
 			path = PNRustfriApp;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7902C4321C17711005D2657 /* ArbejdsopgaveViewController.swift in Sources */,
+				A72011BC21CAAF1D00AA87C4 /* AdminCreateUserViewController.swift in Sources */,
 				A7902C4121C1748A005D2657 /* LoginViewController.swift in Sources */,
 				A7902C0D21C162A6005D2657 /* AppDelegate.swift in Sources */,
 			);
@@ -584,6 +588,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PNRustfriApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -602,6 +607,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PNRustfriApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
